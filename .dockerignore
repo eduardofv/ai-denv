@@ -1,0 +1,9 @@
+.*
+.pytest_cache
+data/
+saved_models/
+models/
+private/
+tmp/
+borra*
+
