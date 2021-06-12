@@ -17,6 +17,7 @@ This is an initial point that may be adapted to specific needs. Check the `Docke
 
 ## Considerations
 
+- If using a GPU, check requirements for [Tensorflow docker GPU enabled images](https://www.tensorflow.org/install/docker#gpu_support)
 - New software installed in the container will be lost as it runs as a *ephemeral container*. If you install something you plan to use all the time in your project add it to `Dockerfile` and rebuild.
 
-- It opens default ports for Juputer, Tensorboard and Flask
+- It opens default ports for Jupyter, Tensorboard and Flask
