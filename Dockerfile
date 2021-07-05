@@ -35,7 +35,7 @@ RUN pip install --upgrade pip
 
 RUN apt update -y && apt upgrade -y
 RUN apt install -y zip
-RUN apt install -y git
+RUN apt install -y git git-lfs
 RUN apt install -y vim 
 
 #R
